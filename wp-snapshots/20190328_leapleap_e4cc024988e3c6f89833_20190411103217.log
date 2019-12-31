@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: April 11, 2019 10:32 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.10
+WORDPRESS:	5.1.1
+PHP INFO:	7.1.27 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (768M default) 
+MEMORY STACK: 10MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+SQL CREATED: 20190328_leapleap_e4cc024988e3c6f89833_20190411103217_database.sql 
+SQL FILE SIZE: 1014.5KB (1038851) 
+SQL FILE TIME: 2019-04-11 10:32:36 
+SQL RUNTIME: 0.17 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/derekweb/public_html/leap 
+ARCHIVE FILE: 20190328_leapleap_e4cc024988e3c6f89833_20190411103217_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	191.74MB 
+STATS:	Dirs 1,260 | Files 7,969 
+SQL ADDED: 20190328_leapleap_e4cc024988e3c6f89833_20190411103217_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9229
+    [filename] => /home/derekweb/public_html/leap/wp-snapshots/tmp/20190328_leapleap_e4cc024988e3c6f89833_20190411103217_archive.zip
+    [comment] => 
+)
+ 
+FILE ADDED TO ZIP: 9228 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 75.01MB 
+ARCHIVE RUNTIME: 15.84 sec. 
+MEMORY STACK: 12MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip /home/derekweb/public_html/leap/wp-snapshots/tmp/20190328_leapleap_e4cc024988e3c6f89833_20190411103217_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 1014.5KB 
+INSTALLER FILE: 207.32KB 
+ARCHIVE FILE: 75.99MB  
+EXPECTED FILE/DIRECTORY COUNT: 9,229 
+ACTUAL FILE/DIRECTORY COUNT: 9,228 
+ARCHIVE CONSISTENCY TEST: Pass 
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 16.50 sec.
+PEAK PHP MEMORY USED: 14MB
+DONE PROCESSING => 20190328_leapleap April 11, 2019 10:32 am
+ 

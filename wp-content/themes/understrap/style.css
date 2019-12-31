@@ -1,0 +1,398 @@
+/*
+Theme Name: UnderStrap
+Theme URI: http://understrap.com
+Author: Holger Koenemann
+Author URI: http://www.holgerkoenemann.de
+GitHub Theme URI: https://github.com/understrap/understrap
+Description: Combination of Automattic´s _s theme and Bootstrap 4. Made as a solid starting point for your next theme project and WordPress website. Use it as starter theme or as a parent theme. It is up to you. Including Font Awesome support, built-in widget slider and much more you need for basic websites. IMPORTANT: All developer dependencies are not bundled with this install file. Just download the .zip, extract it and run "npm install" and "gulp copy-assets" inside the extracted /understrap folder.
+That downloads everything and moves it in place so that you can recompile your CSS and JS files;
+A developer version (with Gulp/node and Sass sources) is available on gitHub: https://github.com/understrap/understrap
+A child theme is available on Github, too: https://github.com/understrap/understrap-child;
+Version: 0.9.1
+License: UnderStrap WordPress Theme, Copyright 2013-2017 Holger Koenemann
+UnderStrap is distributed under the terms of the GNU GPL version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: understrap
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+UnderStrap is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+
+Resource Licenses:
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in /sass/
+The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
+
+...and now go out and play!
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+[class*="col-"]{
+	padding: 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+html, body{
+	height: 100% !important;
+	width: 100% !important;
+	font-family: 'Overpass', sans-serif;
+	color: #222;
+
+}
+.main-text{
+	font-size: 20px !important;
+}
+#child-quote-text{
+
+	padding-top: 150px;
+	font-size: 40px;
+	color: white;
+
+}
+
+#henry{
+
+  	color: white;
+  	font-size: 28px;
+		padding-top: 100px;
+		padding-left: 250px;
+
+
+}
+.section-1{
+	height: 100vh;
+	background-image: url(img/hope1.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.box{
+	width: 100%;
+	height: 500px;
+}
+.navbar {
+	padding: .8rem;
+
+}
+
+.nav-link{
+	font-size: 1.1em !important;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.btn-primary{
+	background-color: #6648b1;
+	border: 1px solid #563d7c;
+}
+.btn-primary: hover{
+	background-color: #ffffff;
+}
+carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.1s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+nav{
+  background-color:#96DAF6 !important;
+  height: 125px;
+  background-image: url(images/leaplogo.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+
+}
+
+
+
+
+.fa-code{
+	color: #e54d26;
+
+}
+.fa-bold{
+	color: #563d7c;
+}
+.fa-css3{
+	color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3{
+	font-size: 4em;
+	margin: 1rem;
+}
+.social a {
+	font-size: 4.5em
+	padding: 3rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-instagram{
+	color: #517fa4;
+}
+.fa-youtube{
+	color: #bb0000;
+}
+
+.fa-youtube:hover, .fa-instagram:hover, .fa-facebook:hover,
+{
+	color: #d5d5d5;
+}
+
+@media (max-width: 1920px){
+.social a{
+	font-size: 4rem;
+	padding: 2rem;
+	}
+  }
+@media (max-width: 768px){
+	carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.1s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+    max-height: 50vh;
+}
+
+
+.carousel-caption{
+	top: 45%;
+
+}
+.carousel-caption h1 {
+	font-size: 350%;}
+
+.carousel-caption h3 {
+	font-size: 140%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+	font-size: 95%;
+	padding: 8px 14px;
+}
+.display-4{
+	font-size: 200%;
+}
+.social a{
+	font-size: 2.5em;
+	padding: 1.2rem;
+	}
+
+	#child-quote-text{
+
+		padding-top: 150px;
+		font-size: 50vh;
+		color: white;
+
+	}
+
+	#henry{
+
+	  	color: white;
+	  	font-size: 50vh;
+			padding-top: 100px;
+			padding-left: 100px;
+
+
+	}
+
+}
+@media (max-width: 576px){
+	.carousel-caption{
+		top: 40%;
+
+	}
+	.carousel-caption h1 {
+		font-size: 250%;}
+
+	.carousel-caption h3 {
+		font-size: 110%;
+
+	}
+	.carousel-caption .btn{
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	.display-4{
+		font-size: 160%;
+	}
+	.social a{
+		font-size: 2em;
+		padding: .7rem;
+		}
+		#henry{
+
+		  	color: white;
+		  	font-size: 50vh;
+				padding-top: 50px;
+				padding-left: 250px;
+
+
+		}
+
+}
+
+
+
+.welcome{
+width: 75%
+margin: 0 auto;
+padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+.jumbotron{
+  background-color: #96DAF6 !important;
+	/*padding: 1rem;
+	border-radius: 0;
+	width: auto;*/
+}
+.jumbo-cta{
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+.jumbo-cta:hover{
+  text-decoration: none;
+  color: white;}
+
+/*.footer{
+    background-color:  #96DAF6;
+    height: 200px;
+    width: 100%;
+
+
+		}*/
+
+
+		hr.light{
+			border-top: 1px solid #d5d5d5;
+			width: 75%;
+			margin-top: .8rem;
+			margin-bottom: 1rem;
+
+		}
+
+		hr.light-100{
+			border-top: 1px solid #d5d5d5;
+			width: 100%;
+			margin-top: .8rem;
+			margin-bottom: 1rem;
+		}
+
+
+
+
+	.column {
+	  float: left;
+	  width: 33.3%;
+	  margin-bottom: 16px;
+	  padding: 0 8px;
+	}
+
+	@media screen and (max-width: 650px) {
+	  .column {
+	    width: 100%;
+	    display: block;
+	  }
+	}
+
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.container {
+	  padding: 0 16px;
+	}
+
+	.container::after, .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+
+	.title {
+	  color: grey;
+	}
+
+	.button {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #000;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	.button:hover {
+	  background-color: #555;
+	}
+		.footer{
+		    background-color:  #96DAF6 !important;
+		    height: 200px !important;
+		    width: 100% !important;
+
+
+				}

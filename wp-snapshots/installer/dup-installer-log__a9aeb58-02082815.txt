@@ -1,0 +1,218 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 08:38:39
+* VERSION: 1.3.10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.1.27 | SAPI: cgi-fcgi
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	/home/derekweb/public_html/leap
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	https://www.leap.derekwebdev.com/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190328_leapleap_a9aeb585c436a55b6101_20190402082815_archive.zip
+SIZE:	68.78MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/derekweb/public_html/leap/20190328_leapleap_a9aeb585c436a55b6101_20190402082815_archive.zip' -d '/home/derekweb/public_html/leap' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:38:41 - RUNTIME: 1.9001 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:46:35
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.40 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__a9aeb58-02082815.sql (881.78KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/derekweb/public_html/leap/dup-installer/dup-installer-data__a9aeb58-02082815.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.40] is less than the build version [5.7.23].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	347
+
+wp_GDFormAddressFieldOptions: (0)
+wp_GDFormCaptchas: (0)
+wp_GDFormFieldOptions: (0)
+wp_GDFormFieldTypes: (19)
+wp_GDFormFields: (4)
+wp_GDFormForms: (1)
+wp_GDFormLabelPositions: (5)
+wp_GDFormOnsubmitActions: (3)
+wp_GDFormSettings: (0)
+wp_GDFormSubmissionFields: (0)
+wp_GDFormSubmissions: (0)
+wp_GDFormThemes: (1)
+wp_bwg_album: (0)
+wp_bwg_album_gallery: (0)
+wp_bwg_file_paths: (27)
+wp_bwg_gallery: (1)
+wp_bwg_image: (27)
+wp_bwg_image_comment: (0)
+wp_bwg_image_rate: (0)
+wp_bwg_image_tag: (0)
+wp_bwg_shortcode: (4)
+wp_bwg_theme: (2)
+wp_commentmeta: (0)
+wp_comments: (17)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (211)
+wp_postmeta: (485)
+wp_posts: (154)
+wp_redirection_404: (63)
+wp_redirection_groups: (2)
+wp_redirection_items: (2)
+wp_redirection_logs: (0)
+wp_term_relationships: (11)
+wp_term_taxonomy: (3)
+wp_termmeta: (0)
+wp_terms: (3)
+wp_usermeta: (28)
+wp_users: (1)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3926 sec.
+STEP-2 COMPLETE @ 08:46:36 - RUNTIME: 0.3983 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 08:46:48
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_GDFormAddressFieldOptions^ (0)
+wp_GDFormCaptchas^ (0)
+wp_GDFormFieldOptions^ (0)
+wp_GDFormFieldTypes~ (19)
+wp_GDFormFields~ (4)
+wp_GDFormForms~ (1)
+wp_GDFormLabelPositions~ (5)
+wp_GDFormOnsubmitActions~ (3)
+wp_GDFormSettings^ (0)
+wp_GDFormSubmissionFields^ (0)
+wp_GDFormSubmissions^ (0)
+wp_GDFormThemes~ (1)
+wp_bwg_album^ (0)
+wp_bwg_album_gallery^ (0)
+wp_bwg_file_paths~ (27)
+wp_bwg_gallery~ (1)
+wp_bwg_image~ (27)
+wp_bwg_image_comment^ (0)
+wp_bwg_image_rate^ (0)
+wp_bwg_image_tag^ (0)
+wp_bwg_shortcode~ (4)
+wp_bwg_theme~ (2)
+wp_commentmeta^ (0)
+wp_comments~ (17)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (211)
+wp_postmeta~ (485)
+wp_posts~ (154)
+wp_redirection_404~ (63)
+wp_redirection_groups~ (2)
+wp_redirection_items~ (2)
+wp_redirection_logs^ (0)
+wp_term_relationships~ (11)
+wp_term_taxonomy~ (3)
+wp_termmeta^ (0)
+wp_terms~ (3)
+wp_usermeta~ (28)
+wp_users~ (1)
+--------------------------------------
+Search1:	'/app/public' 
+Change1:	'/home/derekweb/public_html/leap' 
+Search2:	'\/app\/public' 
+Change2:	'\/home\/derekweb\/public_html\/leap' 
+Search3:	'%2Fapp%2Fpublic%2F' 
+Change3:	'%2Fhome%2Fderekweb%2Fpublic_html%2Fleap%2F' 
+Search4:	'\app\public' 
+Change4:	'/home/derekweb/public_html/leap' 
+Search5:	'\\app\\public' 
+Change5:	'\/home\/derekweb\/public_html\/leap' 
+Search6:	'%5Capp%5Cpublic' 
+Change6:	'%2Fhome%2Fderekweb%2Fpublic_html%2Fleap' 
+Search7:	'//leapleap.local' 
+Change7:	'//www.leap.derekwebdev.com' 
+Search8:	'\/\/leapleap.local' 
+Change8:	'\/\/www.leap.derekwebdev.com' 
+Search9:	'%2F%2Fleapleap.local' 
+Change9:	'%2F%2Fwww.leap.derekwebdev.com' 
+Search10:	'http://www.leap.derekwebdev.com' 
+Change10:	'https://www.leap.derekwebdev.com' 
+Search11:	'http:\/\/www.leap.derekwebdev.com' 
+Change11:	'https:\/\/www.leap.derekwebdev.com' 
+Search12:	'http%3A%2F%2Fwww.leap.derekwebdev.com' 
+Change12:	'https%3A%2F%2Fwww.leap.derekwebdev.com' 
+SCANNED:	Tables:39 	|	 Rows:1074 	|	 Cells:8573 
+UPDATED:	Tables:2 	|	 Rows:221 	|	 Cells:230 
+ERRORS:		0 
+RUNTIME:	0.134400 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/derekweb/public_html/leap/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 08:46:48 - RUNTIME: 0.1399 sec. 
+
+
